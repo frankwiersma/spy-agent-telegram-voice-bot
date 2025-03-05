@@ -18,5 +18,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application files
 COPY app/ .
 
+# Copy audio file
+COPY app/text-auth-detected.ogg .
+
 # Run the bot
 CMD ["python", "agent.py"]
