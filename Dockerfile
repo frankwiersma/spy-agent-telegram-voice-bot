@@ -16,7 +16,7 @@ COPY app/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application files
-COPY app/* .
+COPY app/. .
 
 # Run the bot
 CMD ["python", "agent.py"]
