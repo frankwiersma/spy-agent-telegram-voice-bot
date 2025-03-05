@@ -40,7 +40,6 @@ ENV/
 Thumbs.db
 
 # Project specific
-*.ogg
 *.wav
 *.mp3
 temp/
